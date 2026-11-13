@@ -64,7 +64,7 @@
     <string name="Translation">네코그램 번역</string>
     <string name="GooglePlay">구글플레이</string>
     <string name="ResetStickerSize">스티커 사이즈 초기화</string>
-    <string name="OfficialChannelUsername">nekoupdates</string>
+    <string name="OfficialChannelUsername">intergram</string>
     <string name="RestartAppToTakeEffect">변경된 설정 적용을 위해 앱을 재시작</string>
     <string name="DisableAppBarShadow">제목 표시줄 그림자 비활성화</string>
     <string name="MediaPreview">대화목록 에서 미디어 미리보기</string>
@@ -160,7 +160,7 @@
     <string name="SaveToDownloadCount_few">%1$d 파일을 다운로드에 저장</string>
     <string name="SaveToDownloadCount_many">%1$d 파일을 다운로드에 저장</string>
     <string name="SaveToDownloadCount_other">%1$d 파일을 다운로드에 저장</string>
-    <string name="AppLinkNotVerifiedMessage">Android 12 및 최신의 경우 Nekogram에서 t.me 링크를 열기 위해 검증된 링크에 수동으로 링크를 추가해야 합니다.</string>
+    <string name="AppLinkNotVerifiedMessage">Android 12 및 최신의 경우 Intergram에서 t.me 링크를 열기 위해 검증된 링크에 수동으로 링크를 추가해야 합니다.</string>
     <string name="AppLinkNotVerifiedTitle">앱 링크가 확인되지 않음</string>
     <string name="AutoTranslate">자동 번역</string>
     <string name="AutoTranslateAbout">다른 언어로 된 메시지를 자동으로 번역합니다.</string>

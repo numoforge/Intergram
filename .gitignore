@@ -16,3 +16,12 @@ TMessagesProj_AppHuawei/afat/
 google-services.json
 sentry.properties
 TMessagesProj/jni/ffmpeg/build_android
+
+# Intergram: never commit signing material or local secrets
+*.jks
+*.keystore
+*.p12
+key.properties
+.env
+.env.*
+*.b64
