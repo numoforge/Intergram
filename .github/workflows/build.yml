@@ -47,7 +47,13 @@ jobs:
     steps:
       - name: Free disk space
         run: |
-          sudo rm -rf /usr/local/lib/android /usr/share/dotnet /opt/ghc /usr/local/share/chromium /opt/hostedtoolcache/CodeQL
+          # Keep /usr/local/lib/android itself: android-actions/setup-android needs to
+          # create files there, and removing the directory makes it fail with EACCES.
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/share/chromium /opt/hostedtoolcache/CodeQL
+          sudo rm -rf /usr/local/lib/android/sdk/system-images /usr/local/lib/android/sdk/emulator
+          sudo rm -rf /usr/local/lib/android/sdk/ndk
+          sudo mkdir -p /usr/local/lib/android/sdk/ndk
+          sudo chown -R "$(id -u):$(id -g)" /usr/local/lib/android
           df -h /
 
       - name: Checkout (with submodules)
